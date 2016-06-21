@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=what3words-resolver
+Exec=qmlscene %U what3words-resolver/Main.qml
+Icon=what3words-resolver/what3words-resolver.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

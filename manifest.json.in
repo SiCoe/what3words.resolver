@@ -1,0 +1,17 @@
+{
+    "name": "what3words-resolver.sicoemail",
+    "description": "description of what3words-resolver",
+    "architecture": "@CLICK_ARCH@",
+    "title": "what3words-resolver",
+    "hooks": {
+        "what3words-resolver": {
+            "apparmor": "what3words-resolver/what3words-resolver.apparmor",
+            "desktop":  "what3words-resolver/what3words-resolver.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Simon Coe <sicoemail@googlemail.com>",
+    "framework" : "ubuntu-sdk-15.04.5"
+}
+
+
