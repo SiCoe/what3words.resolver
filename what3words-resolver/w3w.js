@@ -11,6 +11,10 @@ function getXMLHttpRequest() {
 function forward(words, successCallback, failCallback) {
     var http = new XMLHttpRequest()
     var url = W3wConfig.apiBase + "forward?addr=" + words;
+    if (W3wConfig.w3wApiKey) {
+        url = url + "&key=" + W3wConfig.w3wAPIKey
+    }
+
     http.open("GET", url, true);
 
     // Send the proper header information along with the request
