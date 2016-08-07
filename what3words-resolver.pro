@@ -14,7 +14,7 @@ UBUNTU_MANIFEST_FILE=manifest.json.in
 
 # specify translation domain, this must be equal with the
 # app name in the manifest file
-UBUNTU_TRANSLATION_DOMAIN="what3words-resolver.sicoemail"
+UBUNTU_TRANSLATION_DOMAIN="what3words-resolver.sicoe"
 
 # specify the source files that should be included into
 # the translation file, from those files a translation
@@ -34,7 +34,7 @@ aptest.commands = bash $$PWD/what3words-resolver/tests/autopilot/run
 aptest.depends  = sub-what3words-resolver
 
 unittest.target   = check
-unittest.commands = /usr/bin/qmltestrunner -input $$PWD/what3words-resolver/tests/unit 
+unittest.commands = /usr/bin/qmltestrunner -input $$PWD/what3words-resolver/tests/unit
 unittest.depends  = sub-what3words-resolver
 
 QMAKE_EXTRA_TARGETS += aptest unittest

@@ -1,5 +1,5 @@
 [Desktop Entry]
-_Name=what3words-resolver
+_Name=What3Words Resolver
 Exec=qmlscene %U what3words-resolver/Main.qml
 Icon=what3words-resolver/what3words-resolver.png
 Terminal=false

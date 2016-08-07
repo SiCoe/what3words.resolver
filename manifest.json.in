@@ -1,17 +1,16 @@
 {
-    "name": "what3words-resolver.sicoemail",
-    "description": "description of what3words-resolver",
+    "name": "what3words-resolver.sicoe",
+    "description": "Resolve What3Words three word locations",
     "architecture": "@CLICK_ARCH@",
-    "title": "what3words-resolver",
+    "title": "What3Words Resolver",
     "hooks": {
         "what3words-resolver": {
             "apparmor": "what3words-resolver/what3words-resolver.apparmor",
-            "desktop":  "what3words-resolver/what3words-resolver.desktop"
+            "desktop": "what3words-resolver/what3words-resolver.desktop",
+            "urls": "what3words-resolver/what3words-resolver-dispatcher.json"
         }
     },
-    "version": "0.1",
+    "version": "0.2",
     "maintainer": "Simon Coe <sicoemail@googlemail.com>",
-    "framework" : "ubuntu-sdk-15.04.5"
+    "framework": "ubuntu-sdk-15.04.4-qml"
 }
-
-

@@ -1,3 +1,8 @@
+### Custom
+
+/po
+/what3words-resolver/w3wConfig.js
+
 ### QT
 # https://github.com/github/gitignore/blob/master/Qt.gitignore
 
@@ -133,7 +138,4 @@ ENV/
 # Rope project settings
 .ropeproject
 
-### Custom
-
-/po
 
