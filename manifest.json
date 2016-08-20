@@ -10,7 +10,7 @@
             "urls": "what3words-resolver/what3words-resolver-dispatcher.json"
         }
     },
-    "version": "0.3",
+    "version": "0.4",
     "maintainer": "Simon Coe <sicoemail@googlemail.com>",
     "framework": "ubuntu-sdk-15.04.4"
 }
