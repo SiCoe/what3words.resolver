@@ -145,7 +145,7 @@ MainView {
                     }
 
                     onClicked: {
-                        var url = parameteredUrl.replace("{coordinates.longitude}", coordinates.longitude).replace("{coordinates.latitude}", coordinates.latitude)
+                        var url = parameteredUrl.replace("{words}", words.text).replace("{coordinates.longitude}", coordinates.longitude).replace("{coordinates.latitude}", coordinates.latitude)
                         //layout.summary.text = url
                         console.log("attempting to open " + url)
                         Qt.openUrlExternally(url)

@@ -12,5 +12,5 @@
     },
     "version": "0.3",
     "maintainer": "Simon Coe <sicoemail@googlemail.com>",
-    "framework": "ubuntu-sdk-15.04"
+    "framework": "ubuntu-sdk-15.04.4"
 }

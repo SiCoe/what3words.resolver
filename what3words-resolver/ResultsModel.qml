@@ -2,6 +2,11 @@ import QtQuick 2.0
 
 ListModel {
     ListElement {
+        name: "what3words"
+        parameteredUrl: "http:w3w.co/{words}"
+        iconUrl: "what3words-resolver.png"
+    }
+    ListElement {
         name: "Geo URL"
         parameteredUrl: "geo:{coordinates.latitude},{coordinates.longitude}"
         iconUrl: "icons/geourl.png"
