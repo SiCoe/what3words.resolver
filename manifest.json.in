@@ -5,9 +5,8 @@
     "title": "What3Words Resolver",
     "hooks": {
         "what3words-resolver": {
-            "apparmor": "what3words-resolver/what3words-resolver.apparmor",
-            "desktop": "what3words-resolver/what3words-resolver.desktop",
-            "urls": "what3words-resolver/what3words-resolver-dispatcher.json"
+            "apparmor": "what3words-resolver.apparmor",
+            "desktop": "what3words-resolver.desktop"
         }
     },
     "version": "0.4",

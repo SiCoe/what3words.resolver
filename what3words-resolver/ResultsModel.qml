@@ -4,7 +4,7 @@ ListModel {
     ListElement {
         name: "what3words"
         parameteredUrl: "http:w3w.co/{words}"
-        iconUrl: "what3words-resolver.png"
+        iconUrl: "icons/what3words-resolver.png"
     }
     ListElement {
         name: "Geo URL"
