@@ -7,9 +7,28 @@ For more information on the service, see the [what3words](http://what3words.com)
 
 ### Setup
 
-Built using the [Ubuntu SDK](https://developer.ubuntu.com/en/phone/platform/sdk/).
+Built using the [Ubuntu SDK](https://developer.ubuntu.com/en/phone/platform/sdk/) and [node.js](https://nodejs.org).
 
-To run it requires a w3wConfig.js file that is in the same directory as the Main.qml file.
+#### Typescript transcoding
+
+This app's logic is written in Typescript and transcoded to JavaScript.
+The transcoding as been automated adn can be run as follows:
+
+1. Ensure nodejs and npm is installed.
+2. From the What3Words-Resolver directory run
+    ```bash
+    npm install
+    ```
+    This should install all the npm dev dependencies
+3. From the What3Words-Resolver directory run
+    ```
+    npm run build
+    ```
+    This should kick off the gulp build that generates app output.
+ 
+#### Configuration file
+
+This app also requires a w3wConfig.js file that is in the same directory as the Main.qml file.
 
 The file should contain the following:
 
@@ -27,6 +46,8 @@ var callingAppKey = "<key>" //the key to use for the api your calling
 var w3wApiKey = "<your api key>"
 ```
 replace items within `<` and `>` with your own values for teh section that's relevant for you.
+
+#### What3Words Service
 
 This app is designed to work with the [what3words.resolver.server](https://github.com/SiCoe/what3words.resolver.server)
 though I've tried (without testing) to allow it to work with the [what 3 words RESTful API](https://docs.what3words.com/api/v2/) directly, hence the differnt sections of w3wConfig.js.
