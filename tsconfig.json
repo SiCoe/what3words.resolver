@@ -1,0 +1,16 @@
+{
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "outFile": "w3w.ts.js",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "target": "es5",
+        "forceConsistentCasingInFileNames": true,
+        "removeComments": true,
+        //"module": "commonjs", // "CommonJS" "AMD" "System" "UMD"
+        "strictNullChecks": true,
+        "inlineSourceMap": true
+    }
+}

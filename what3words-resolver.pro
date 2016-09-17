@@ -21,9 +21,9 @@ UBUNTU_TRANSLATION_DOMAIN="what3words-resolver.sicoe"
 # template is created in po/template.pot, to create a
 # translation copy the template to e.g. de.po and edit the sources
 UBUNTU_TRANSLATION_SOURCES+= \
-    $$files(*.qml,true) \
-    $$files(*.js,true) \
-    $$files(*.desktop,true)
+    $$files(what3words-resolver/*.qml,true) \
+    $$files(what3words-resolver/*.js,true) \
+    $$files(what3words-resolver/*.desktop,true)
 
 # specifies all translations files and makes sure they are
 # compiled and installed into the right place in the click package

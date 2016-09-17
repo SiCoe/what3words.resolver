@@ -6,6 +6,8 @@ RESOURCES += what3words-resolver.qrc
 QML_FILES += $$files(*.qml,true) \
              $$files(*.js,true)
 
+TYPESCRIPT_FILES += $$files(*.ts, true)
+
 ICON_FILES += $$files(icons/*.*, true)
 
 APPARMOR_FILES += $$files(*.apparmor, true)
@@ -22,11 +24,15 @@ OTHER_FILES += $${ICON_FILES} \
 qml_files.path = /what3words-resolver
 qml_files.files += $${QML_FILES}
 
+typescript_files.path = /what3words-resolver
+typescript_files.files += $${TYPESCRIPT_FILES}
+typescript_files.CONFIG += no_check_exist
+
 icon_files.path = /what3words-resolver/icons
 icon_files.files += $${ICON_FILES}
 
 apparmor_files.path = /
-apparmor_files.files = $${APPARMOR_FILES}
+apparmor_files.files += $${APPARMOR_FILES}
 
 #specify where the config files are installed to
 config_files.path = /what3words-resolver
