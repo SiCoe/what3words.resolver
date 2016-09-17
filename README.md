@@ -25,6 +25,9 @@ The transcoding as been automated adn can be run as follows:
     npm run build
     ```
     This should kick off the gulp build that generates app output.
+
+Note: if you are developing the Typescript in this app you can use `npm run watch` instead of `npm run build`
+to have the transcoding happen whenever you save a Typescript file.
  
 #### Configuration file
 
